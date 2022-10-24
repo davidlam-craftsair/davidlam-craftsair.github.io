@@ -1,3 +1,69 @@
 <html>
-  <head>David Lam's Projects</head>
+  <head>
+    <title>David Lam's Projects</title>
+    <link href="mystyle.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bg-image"
+      style="background-image: url('./assets/ryan-shumway--n5F3fH0lIY-unsplash.jpg');
+      background-size:100%;
+      height:100vh;
+      "
+    >
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="projectGallery">
+      <!--Project 1 Pacman-->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/pacman_thumbnail.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pacman Factory</h5>
+          <p class="card-text">This project emulates the classic game of Pacman. It creates an animation of pacman opening and closing its mouth. It will bounce back to the opposite direction when hitting the screen edge.</p>
+          <a href="https://github.com/davidlam-craftsair/Pacman" class="btn btn-primary">Go to Github Repository</a>
+        </div>
+      </div>
+      <!--Project 2 Rollings Eyes-->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/twoeyes.png" alt="Card image cap">
+        <div class="card-body" >
+          <h5 class="card-title">Eye Exercise</h5>
+          <p class="card-text">This project animates the eyes balls rolling as user can move the mouse cursor. This project demostrates it is possible to make objects react to the mouse move event, thereby introducing user interaction.
+</p>
+          <a href="https://github.com/davidlam-craftsair/Eye-Exercise" class="btn btn-primary">Go to Github Repository</a>
+        </div>
+      </div>
+      <!--Project 3 Tracker-->
+      <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/marker.png" alt="Real Time Bus Tracker">
+        <div class="card-body">
+          <h5 class="card-title">Real Time Bus Tracker</h5>
+          <p class="card-text">The project simulates to track the bus on the road between bus stops. The map is provided by MAPBOX API.</p>
+          <a href="https://github.com/davidlam-craftsair/Real-Time-Bus-Tracker" class="btn btn-primary">Go to Github Repository</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
 </html>
