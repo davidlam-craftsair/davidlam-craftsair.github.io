@@ -4,7 +4,7 @@ h2 { font-family: Helvetica;
 color:black;}
 h3 { font-family: Helvetica; color:black;}
 li { font-family: Helvetica; color:black;}
-p { font-family: Helvetica; 
+p { font-family: apercu; 
     padding: 5px;
    color: black; 
   }
@@ -23,18 +23,23 @@ p { font-family: Helvetica;
 }
 
 .card-img-top{max-width: 128px; max-height:128px height=auto; width=auto;>
- 
+margin: 10px
 }
 
 .btn-primary{
-  position: absolute; 
-  bottom:20px;
-
+  position: relative; 
+  margin: 10px 20px 10px 20px;
 }
 .card-body{
 position:relative;
 min-height:250px;
 }
 
+.card{
+  background-image: url('./assets/oleg-laptev-7jQh3EiS8Bs-unsplash-2.jpg')
+}
 
+.base-container{
+  padding:0 20px 0 20px;
+}
 

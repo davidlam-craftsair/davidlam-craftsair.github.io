@@ -7,15 +7,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!--Base Background image and -->
     <div class="bg-image"
-      style="background-image: url('./assets/ryan-shumway--n5F3fH0lIY-unsplash.jpg');
-      background-size:100%;
+      style="background-image: url('./assets/oleg-laptev-7jQh3EiS8Bs-unsplash-2.jpg');
+      background-size:cover;
       height:100vh;
       "
     >
+      <!--Navigation Bar-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Menu</a>
+          <a class="navbar-brand" href="index.html">David's Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggle-icon"></span>
           </button>
@@ -34,10 +36,11 @@
           </div>
         </div>
       </nav>
+      <div class="base-container">
     <div class="projectGallery">
       <!--Project 1 Pacman-->
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./assets/pacman_thumbnail.png" alt="Card image cap">
+        <img class="card-img-top" src="./assets/PacMan1.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Pacman Factory</h5>
           <p class="card-text">This project emulates the classic game of Pacman. It creates an animation of pacman opening and closing its mouth. It will bounce back to the opposite direction when hitting the screen edge.</p>
@@ -59,11 +62,13 @@
           <img class="card-img-top" src="./assets/marker.png" alt="Real Time Bus Tracker">
         <div class="card-body">
           <h5 class="card-title">Real Time Bus Tracker</h5>
-          <p class="card-text">The project simulates to track the bus on the road between bus stops. The map is provided by MAPBOX API.</p>
+            <p class="card-text">The project simulates to track the bus on the road between bus stops. The map is provided by <a href="https://mapbox.com" target="_blank">MAPBOX API</a>.</p>
           <a href="https://github.com/davidlam-craftsair/Real-Time-Bus-Tracker" class="btn btn-primary">Go to Github Repository</a>
         </div>
       </div>
     </div>
   </div>
+
+    </div>
   </body>
 </html>
