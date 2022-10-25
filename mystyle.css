@@ -2,13 +2,24 @@ h1 { font-family: Helvetica-bold;
 color:black;}
 h2 { font-family: Helvetica; 
 color:black;}
-h3 { font-family: Helvetica; color:black;}
+h3 { font-family: "apercu", sans-serif; 
+ color:black;}
 li { font-family: Helvetica; color:black;}
-p { font-family: apercu; 
+p { font-family: "apercu", sans-serif; 
     padding: 5px;
    color: black; 
   }
-    
+.bg-image{
+      background-size:100%;
+      background-attachment:fixed;
+      background-repeat: no-repeat;
+      height:100vh;
+}
+
+.navbar-toggle-icon {
+background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  
+} 
 .projectGallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, 18rem );
